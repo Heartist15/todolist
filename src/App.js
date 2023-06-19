@@ -1,9 +1,9 @@
-import "./App.css"; // Importing the CSS file for the App component
-import React from "react"; // Importing React to use React components
-import LoginPage from "./Pages/LoginPage"; // Importing the LoginPage component
-import { Route, Routes } from "react-router-dom"; // Importing Route and Routes components from react-router-dom
+import "./App.css"; 
+import React from "react";
+import LoginPage from "./Pages/LoginPage"; 
+import { Route, Routes } from "react-router-dom"; 
 import AuthProtectedRoutes from "./Routes/AuthProtected"; // Importing AuthProtectedRoutes component
-import TaskListPage from "./Pages/TaskListPage"; // Importing the TaskListPage component
+import TaskListPage from "./Pages/TaskListPage"; 
 
 function App() {
   return (
